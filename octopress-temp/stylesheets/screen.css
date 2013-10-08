@@ -113,7 +113,7 @@ body > header h2 {
 }
 body {
     color: #222222;
-    line-height: 1.5em;
+    line-height: 1.3em;
 }
 h1 {
     font-size: 2.2em;
@@ -207,10 +207,10 @@ q {
     font-style: italic;
 }
 q:before {
-    content: "??";
+    content: "»";
 }
 q:after {
-    content: "??";
+    content: "»";
 }
 em, dfn {
     font-style: italic;
@@ -257,7 +257,7 @@ article blockquote cite a {
 }
 article blockquote cite:before {
     color: #AAAAAA;
-    content: "?X";
+    content: "»";
     padding-left: 0.3em;
     padding-right: 0.3em;
 }
@@ -296,7 +296,7 @@ article blockquote {
 }
 body {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1250px;
     position: relative;
 }
 body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
@@ -444,7 +444,7 @@ aside.sidebar section.even {
 }
 aside.sidebar.thirds section {
     margin-left: 5%;
-    width: 30%;
+    width: 70%;
 }
 aside.sidebar.thirds section.first {
     clear: both;
@@ -528,7 +528,7 @@ body > header {
     font-size: 1.3em;
 }
 #content {
-    margin-right: 300px;
+    margin-right: 400px;
 }
 #content > div, #content > article {
     padding-bottom: 27.5px;
@@ -911,7 +911,7 @@ article > footer p.meta {
     margin-top: 1em;
 }
 .separator, article > footer .byline + time:before, article > footer time + time:before, article > footer .comments:before, article > footer .byline ~ .categories:before {
-    content: "?E";
+    content: " - ";
     display: inline-block;
     padding: 0 0.4em 0 0.2em;
 }
@@ -1510,7 +1510,7 @@ aside.sidebar:hover a:hover {
     border-bottom: 1px solid #E0E0E0;
     border-bottom-right-radius: 0.3em;
     border-right: 1px solid #E0E0E0;
-    content: "?";
+    content: "»";
     font-size: 1.2em;
     line-height: 1.1em;
     padding-bottom: 0.15em;
