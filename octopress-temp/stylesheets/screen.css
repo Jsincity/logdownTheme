@@ -113,7 +113,7 @@ body > header h2 {
 }
 body {
     color: #222222;
-    line-height: 1.5em;
+    line-height: 1.3em;
 }
 h1 {
     font-size: 2.2em;
@@ -121,7 +121,7 @@ h1 {
 }
 @media only screen and (min-width: 992px) {
 body {
-    font-size: 1.15em;
+    font-size: 1.1em;
 }
 h1 {
     font-size: 2.6em;
@@ -149,7 +149,7 @@ h6, section h5, section section h4, section section section h3 {
     font-size: 0.8em;
 }
 p, article blockquote, ul, ol {
-    margin-bottom: 1em;
+    margin-bottom: 0.9em;
 }
 ul {
     list-style-type: disc;
@@ -207,10 +207,10 @@ q {
     font-style: italic;
 }
 q:before {
-    content: "??";
+    content: "»";
 }
 q:after {
-    content: "??";
+    content: "»";
 }
 em, dfn {
     font-style: italic;
@@ -239,7 +239,7 @@ article blockquote {
     border-style: solid;
     border-width: 1px;
     color: #3B7B88;
-    font-size: 0.9em;
+    font-size: 19px;
     font-style: italic;
     left: 1.5em;
     line-height: 1.5em;
@@ -257,7 +257,7 @@ article blockquote cite a {
 }
 article blockquote cite:before {
     color: #AAAAAA;
-    content: "?X";
+    content: "»";
     padding-left: 0.3em;
     padding-right: 0.3em;
 }
@@ -296,7 +296,7 @@ article blockquote {
 }
 body {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1250px;
     position: relative;
 }
 body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
@@ -444,7 +444,7 @@ aside.sidebar section.even {
 }
 aside.sidebar.thirds section {
     margin-left: 5%;
-    width: 30%;
+    width: 70%;
 }
 aside.sidebar.thirds section.first {
     clear: both;
@@ -528,7 +528,7 @@ body > header {
     font-size: 1.3em;
 }
 #content {
-    margin-right: 300px;
+    margin-right: 400px;
 }
 #content > div, #content > article {
     padding-bottom: 27.5px;
@@ -911,7 +911,7 @@ article > footer p.meta {
     margin-top: 1em;
 }
 .separator, article > footer .byline + time:before, article > footer time + time:before, article > footer .comments:before, article > footer .byline ~ .categories:before {
-    content: "?E";
+    content: " - ";
     display: inline-block;
     padding: 0 0.4em 0 0.2em;
 }
@@ -1042,23 +1042,27 @@ pre {
     border: 1px solid #05232B;
     border-radius: 0 0 0.4em 0.4em;
     color: #102226;
-    font-size: 13px;
-    line-height: 1.45em;
+    font-size: 18px;    
+    line-height: 1.5em;
     margin-bottom: 2.1em;
     overflow: auto;
-    padding: 0.8em 1em;
+    padding-top:0.4em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom:0.3em;
+
 }
 h3.filename + pre {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
 p code, li code {
-    background: none repeat scroll 0 0 #FFFFFF;
+    background: none repeat scroll 0 0 #FFFFCC;
     border: 1px solid #DDDDDD;
     border-radius: 0.4em 0.4em 0.4em 0.4em;
     color: #555555;
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 0.95em;
     line-height: 1.5em;
     margin: -1px 0;
     padding: 0 0.3em;
@@ -1302,8 +1306,8 @@ figure.code .highlight {
     border-width: 1px 1px 0;
     color: #000000;
     font-family: "Helvetica Neue",Arial,"Lucida Grande","Lucida Sans Unicode",Lucida,sans-serif;
-    font-size: 13px;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: bold;
     line-height: 2em;
     margin-bottom: 0;
     text-align: center;
@@ -1506,7 +1510,7 @@ aside.sidebar:hover a:hover {
     border-bottom: 1px solid #E0E0E0;
     border-bottom-right-radius: 0.3em;
     border-right: 1px solid #E0E0E0;
-    content: "?";
+    content: "»";
     font-size: 1.2em;
     line-height: 1.1em;
     padding-bottom: 0.15em;
